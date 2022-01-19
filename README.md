@@ -19,8 +19,6 @@ We implement an autonomous car simulation in Carla, using deep learning and comp
 Instructions to run scripts: 
 Download Models and Files Here: https://drive.google.com/file/d/1fUXZ58jPB7Mf-d8he7Peq2wdAeRkx6h_/view?usp=sharing
 
-Watch Video here: https://drive.google.com/file/d/1oiLPbsf7IzoZcyqOO85P_p1nhx_jkJNl/view?usp=sharing
-
 1. Execute CityEnviron - navigate vehicle manually to location shown in demo video
 2. Open Developer Command Prompt for VS 2019
 3. Navigate to the correct drive
@@ -43,3 +41,6 @@ python lane_detector_torch_2.py
 Command to run Object Detection with YOLO:
 python yolov3_final_demo
 
+## Results
+Please watch the following video:
+https://drive.google.com/file/d/1oiLPbsf7IzoZcyqOO85P_p1nhx_jkJNl/view?usp=sharing
