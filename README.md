@@ -1,5 +1,9 @@
 # CARLA-autonomous-car-simulation
 
+## Introduction
+
+We implement an autonomous car simulation in Carla, using deep learning and computer vision principles. Firstly, to track lanes on the road, we use Canny Edge detection and Robust lane detection. We track lanes based on the bird's eye view after applying a homography transformation with the front view. Then we use YOLO to ensure that we avoid pedestrians. Finally, we implement a basic controller to guide the car using the information from the lane detection and object detection modules. 
+
 ## Setup
 CIS 581 Final Project: Team 10, Environment and Code Instructions
 (This instruction is for windows)
@@ -15,6 +19,7 @@ CIS 581 Final Project: Team 10, Environment and Code Instructions
 
 Instructions to run scripts: 
 Download Models and Files Here: https://drive.google.com/file/d/1fUXZ58jPB7Mf-d8he7Peq2wdAeRkx6h_/view?usp=sharing
+
 Watch Video here: https://drive.google.com/file/d/1oiLPbsf7IzoZcyqOO85P_p1nhx_jkJNl/view?usp=sharing
 
 1. Execute CityEnviron - navigate vehicle manually to location shown in demo video
@@ -39,6 +44,3 @@ python lane_detector_torch_2.py
 Command to run Object Detection with YOLO:
 python yolov3_final_demo
 
-## Presentation Video
-
-https://drive.google.com/file/d/1oiLPbsf7IzoZcyqOO85P_p1nhx_jkJNl/view?usp=sharing
