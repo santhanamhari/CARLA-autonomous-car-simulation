@@ -4,8 +4,7 @@
 
 We implement an autonomous car simulation in Carla, using deep learning and computer vision principles. Firstly, to track lanes on the road, we use Canny Edge detection and Robust lane detection. We track lanes based on the bird's eye view after applying a homography transformation with the front view. Then we use YOLO to ensure that we avoid pedestrians. Finally, we implement a basic controller to guide the car using the information from the lane detection and object detection modules. 
 
-## Setup
-CIS 581 Final Project: Team 10, Environment and Code Instructions
+## Setup and Running of Code
 (This instruction is for windows)
 
 1. Install AirSim, follow steps at : https://microsoft.github.io/AirSim/build_windows/
